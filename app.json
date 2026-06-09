@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "finio-android",
+    "name": "Finio",
     "slug": "finio-android",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -34,11 +34,20 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-sharing",
+      "@react-native-community/datetimepicker"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "48fafe8d-e3d7-4fce-a5f6-2cc8ea20fa33"
+      }
+    },
+    "owner": "abhi-sawant"
   }
 }
